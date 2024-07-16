@@ -1,0 +1,14 @@
+:root {
+    /*Global*/
+    --global-font-size: 16px;
+    --font-family:Inter, sans-serif;
+    --global-max-width: 1020px;
+    --variant-max-width: 796px;
+
+    /*colors*/
+    --color-title: #d9e3ea;
+    --color-text: #97a5b0;
+    --color-bg: #151719;
+    --color-text-special:#5d5dff;
+
+}
