@@ -5,7 +5,10 @@
 @import url('./main.css');
 
 /*pages*/
-@import url('/index.css');
+@import url('./pages/index.css');
+@import url('./about.css');
+@import url('./blog.css');
+@import url('./features.css');
 
 /*Pages componets global*/
 @import url('./componets/global/footer.css');
@@ -15,3 +18,4 @@
 
 /* utility*/
 @import url('utility/utility.css');
+
