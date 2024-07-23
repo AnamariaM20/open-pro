@@ -1,0 +1,15 @@
+.nav .nav__left svg {
+    size: var(--logo-size);
+    width: 32px;
+    height: 32px;
+
+}
+
+.nav {
+    padding: 20px;
+    gap: 40px;
+}
+
+.nav__center {
+    gap: 20px;
+}

@@ -23,6 +23,6 @@
     align-items: center;
 }
 
-.justify-between {
+.space-between {
     justify-content: space-between;
 }

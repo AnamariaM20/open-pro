@@ -1,0 +1,31 @@
+.btn {
+    padding: 0.5rem 1rem; 
+    text-align: center;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.btn.block {
+    width: 100%;
+}
+
+.btn.btn-tr {
+    color: var(--color-text-special);
+    background-color: var(--color-bg);
+    border: none;
+}
+
+.btn-tr:hover{
+    color: white;
+}
+
+.btn.btn-vw {
+    color: var(--color-text);
+    background-color: var(--color-text-special);
+    border: none;
+}
+
