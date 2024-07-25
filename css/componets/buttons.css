@@ -24,7 +24,7 @@
 }
 
 .btn.btn-vw {
-    color: var(--color-text);
+    color: white;
     background-color: var(--color-text-special);
     border: none;
 }
