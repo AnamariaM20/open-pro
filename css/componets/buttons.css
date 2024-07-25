@@ -37,3 +37,9 @@
     margin-left: 20px;
 }
 
+.btn.btn-vb {
+    color: white;
+    background-color: rgb(51 54 58);
+    border: none;
+}
+
