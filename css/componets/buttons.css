@@ -27,5 +27,13 @@
     color: white;
     background-color: var(--color-text-special);
     border: none;
+    margin-left: 20px;
+}
+
+.btn.btn-gw{
+    color: white;
+    background-color:#33363a;
+    border: none;
+    margin-left: 20px;
 }
 
