@@ -1,0 +1,13 @@
+header .header_info h1{
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+header .header_info p{
+    max-width: 48rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 2rem;
+}

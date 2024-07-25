@@ -26,3 +26,10 @@
 .space-between {
     justify-content: space-between;
 }
+.txt-center{
+    text-align: center;
+}
+
+.section {
+    margin: 100px auto 50px auto;
+}
