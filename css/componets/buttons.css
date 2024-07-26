@@ -9,9 +9,7 @@
     cursor: pointer;
 }
 
-.btn.block {
-    width: 100%;
-}
+
 
 .btn.btn-tr {
     color: var(--color-text-special);
@@ -37,9 +35,66 @@
     margin-left: 20px;
 }
 
-.btn.btn-vb {
-    color: white;
-    background-color: rgb(51 54 58);
-    border: none;
+.btn.btn-go svg{
+    fill:var(--color-text-special);
+    width: 1rem;
+    height: 1rem;
 }
 
+.btn.btn-go{
+    color: white;
+    background-color:#33363a;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 15%;
+    height: 40px;
+    opacity:0.5;
+}
+
+.btn.btn-go span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.btn.btn-vws{
+    color: white;
+    background-color: var(--color-text-special);
+    border: none;
+    margin-top: 20px;
+}
+
+.btn.btn-vws svg{
+    fill:var(--color-text) ;
+    height: 1rem;
+}
+
+.btn.btn-s5{
+    border: none;
+    border-radius: 20px;
+    gap: 20px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.btn-s5v{
+    color: white;
+    background-color: var(--color-text-special);
+}
+
+.btn-s5b{
+    color: white;
+    background-color: #3b82f6;
+}
+
+.btn-s5r{
+    color: white;
+    background-color: #ec4899;
+}
+
+.btn-s5g{
+    color: white;
+    background-color: #14b8a6;
+}

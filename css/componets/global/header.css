@@ -4,8 +4,7 @@
     margin: 40px auto;
 }
 
-header .header_info p{
-    font-size: 1.25rem;
-    letter-spacing: -0.01em;
-    margin-bottom: 2rem;
+.header-top h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }

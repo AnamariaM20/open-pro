@@ -32,5 +32,10 @@
 
 .section {
     margin: 100px auto 50px auto;
-    padding-bottom: 8rem;
+}
+
+.line{
+    margin: 100px auto 50px auto;
+    max-width: var(--global-max-width);
+    size: 0.2px;
 }
