@@ -1,0 +1,298 @@
+
+.img-header {
+    max-width: 100vp;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 30%;
+
+}
+.btn.btn-t {
+    color: var(--color-text-special);
+    background-color: transparent;
+    border: none;
+}
+.header .header__top {
+    margin: 100px 0;
+}
+header .header__images {
+    max-width: var(--global-max-width);
+    position: relative;
+    height: auto;
+}
+
+.header .header__images .img1 {
+    width: 90%;
+    height: 350px;
+    padding-left: 50px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 0;
+}
+.header .header__images .img2 {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    z-index: 2;
+    right: -35px;
+    top: 100px;
+}
+.header .header__images .img3 {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    bottom: -35%;
+}
+
+.header .header__images .img4 {
+    position: absolute;
+    z-index: -1;
+    right: 10%;
+    bottom: -40%;
+    width: 200px;
+    height: 180px;
+}
+
+
+
+.sec1 .sec1__title {
+    margin-top: 300px;
+    margin-bottom: 70px;
+}
+.sec1 .sec1__timeline {
+    width: 100%;
+    max-width: var(--global-max-width);
+    margin-top: 100px;
+}
+
+.sec1 .sec1__timeline .sec1__timeline-items {
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    column-gap: 60px;
+}
+.sec1 .sec1__timeline .sec1__timeline-items .year{
+    align-self: flex-start;
+    margin-top: 40px;
+    
+}
+.sec1 .sec1__timeline .sec1__timeline-items .year span {
+    font-size: 1.25rem;
+    border: solid 2px #bbf7d0;
+    background-color: #bbf7d0;
+    color: rgb(24, 137, 24);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 600;
+    
+}
+.sec1 .sec1__timeline .sec1__timeline-items .content h4  {
+   font-size: 2rem;
+   color: var(--color-title);
+   margin-bottom: 2rem;
+}
+
+.sec1 .sec1__timeline .sec1__timeline-items .content span {
+    color: var(--color-text-special);
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 1.25rem;
+}
+
+.sec1 .sec1__timeline .sec1__timeline-items .content p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+
+}
+.sec2 .sec2__title {
+    line-height: 2.5rem;
+}
+.sec2 .sec2__title p {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+
+}
+.sec2 .sec2__team  {
+    column-gap: ;
+    margin-top: 100px;
+    max-width: var(--global-max-width);
+
+}
+.sec2 .sec2__team .sec2__team-profile{
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+    width: 25%;
+}
+.sec2 .sec2__team .sec2__team-profile img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.sec2 .sec2__team .sec2__team-profile h6 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.sec2 .sec2__team .sec2__team-profile p {
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+.sec2 .sec2__team .sec2__team-profile span {
+    font-size: 1.2rem;
+    color: var(--color-text-special);
+}
+
+.sec2 .sec2__team .sec2__team-profile span:hover {
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.sec3 .sec3__title {
+    line-height: 2.5rem;
+}
+.sec3 .sec3__title p {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+
+}
+.sec3 .sec3__advantages {
+    gap: 20px;
+    margin-top: 100px;
+}
+.sec3 .sec3__advantages div {
+    gap: 10px;
+}
+.sec3 .sec3__advantages svg {
+    fill: rgb(24, 137, 24);
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px rgb(24, 137, 24);
+    width: 32px;
+    height: 32px;
+}
+
+.sec3 .sec3__advantages p {
+    font-size: 1.5rem;
+}
+.sec3 .sec3__positions {
+    margin: 100px 0 100px 0;
+}
+
+.sec3 .sec3__testimonials {
+    gap: 15px;
+    margin-top: 100px;
+}
+.sec3 .sec3__testimonials p {
+    font-size: 1.125rem;
+}
+.sec3 .sec3__testimonials div p {
+    font-size: 1rem;
+    color: white
+}
+.sec3 .sec3__testimonials div span {
+    font-size: 1rem;
+    color: var(--color-text-special);
+    padding-left: 5px;
+}
+.sec3 .sec3__positions h6 {
+    font-size: 1.9rem;
+}
+.sec3 .sec3__positions .sec3__positions-item-job {
+    line-height: 2.8rem;
+    margin-top: 50px;
+}
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-job span {
+    font-size: 1.75rem;
+    color: var(--color-text-special);
+    font-weight: 700;
+}
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-job span:hover {
+    cursor: pointer;
+    color: white;
+}
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-job p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-job .job-detail {
+    margin-top: 20px;
+    gap: 10px;
+}
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-job .job-detail svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--color-text);
+    color: var(--color-text);
+    margin-top: 20px;
+}
+
+.sec3 .sec3__positions .sec3__positions-item .sec3__positions-item-icon svg{
+    width: 32px;
+    height: 32px;
+    fill: var(--color-text-special);
+}
+
+.sec4 .sec4-title {
+    margin-bottom: 100px;
+    
+}
+.sec4 .sec4-title p {
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.sec4 .sec4-boxes {
+    gap: 10px;
+    margin-top: 100px;
+    max-width:var(--global-max-width)
+   
+}
+.sec4 .sec4-boxes .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--color-text);
+    border-color: var(--color-text);
+    fill: var(--color-text);
+    width: 24%;
+    height: 100px;
+}
+
+.sec4 .sec4-banner {
+    background-color: rgb(93 93 255);
+    padding: 70px 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sec4 .sec4-banner h4 {
+    font-size: 2.8rem;
+    color: white;
+}
+.sec4 .sec4-banner p {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.sec4 .sec4-banner .right button {
+    font-size: 1.25rem;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    color: var(--color-text-special);
+}
+.sec4 .sec4-banner .right button:first-child {
+    font-size: 1.25rem;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    color: var(--color-text);
+    background-color: rgb(75 74 207);
+    border: solid 1px var(--color-text);
+    width:300px;
+}
