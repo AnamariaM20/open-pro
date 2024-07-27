@@ -7,7 +7,7 @@
 /*pages*/
 @import url('./pages/index.css');
 @import url('./about.css');
-@import url('./blog.css');
+@import url('./pages/blog.css');
 @import url('./features.css');
 
 /*Pages componets global*/
