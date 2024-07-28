@@ -285,6 +285,8 @@ h4{
 }
 
 .section6 .section6_info{
+    margin-left: 4rem;
+    margin-right: 4rem;
     width: 50%;
     max-width: 100%;
 }
@@ -293,6 +295,7 @@ h4{
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.25;
+    text-align: left;
 }
 
 .section6 .section6_info p{
@@ -303,4 +306,34 @@ h4{
 .section6 .section6_form{
     width: 50%;
     max-width: 100%;
+}
+
+#email{
+    height: 50%;
+    color: var(--color-text);
+    background-color: #4b4acf;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 1px;
+    border-radius: 0.125rem;
+}
+
+#submit{
+    height: 50%;
+    color: var(--color-text-special);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 1px;
+    border-radius: 0.125rem;
+    cursor: pointer;
 }

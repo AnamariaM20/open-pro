@@ -376,13 +376,16 @@
         </section>
         <section class="wrapper">
             <div class="container flex">
-                <div class="section section6 flex justify-center items-center space-between">
-                    <div class="section6_info">
+                <div class="section section6 flex">
+                    <div class="section6_info flex flex-col justify-center">
                         <h3>Stay in the loop</h3>
                         <p>Join our newsletter to get top news before anyone else.</p>
                     </div>
-                    <div class="section6_form ">
-                        
+                    <div class="section6_form flex justify-center items-center">
+                        <form action="index.html" method="POST">
+                            <input type="email" placeholder="Your best email..." id="email" />
+                            <input type="button" value="Subscribe" id="submit"/>
+                        </form>
                     </div>
                 </div>
             </div>

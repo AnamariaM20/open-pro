@@ -77,6 +77,11 @@
     padding-right: 0.75rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+    opacity: 1;
+}
+
+.btn.btn-s5:hover{
+    opacity: 0.9;
 }
 
 .btn-s5v{
