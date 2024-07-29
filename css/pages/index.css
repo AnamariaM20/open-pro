@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Playwrite+CU:wght@100..400&display=swap');
+
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: -0.01em;
+}
+
+.img_header img{
+    padding-left: 50px;
+    margin-top:4rem; 
+    height: 600px;
+}
+
+.section_header{
+    padding-bottom: 5rem;
+}
+.section_header h2{
+    max-width: 80%;
+    margin: 40px auto;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.section_header p{
+    font-size: 1.50rem;
+    margin-bottom: 2rem;
+    gap: 20px;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.section1_items h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: -0.01em;
+}
+.section1_items span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+}
+
+.section1_items p{
+    font-size: 1.3rem;
+    width: 80%;
+    line-height: 1.7rem;
+}
+#circle {
+    background:var( --color-text-special);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 2rem;
+}
+
+.section2-info{
+    max-width: 100%;
+}
+.section2-img{
+    max-width: 100%;
+}
+
+
+.section2-info .text-p{
+    color: var(--color-text-special);
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.section2-info h3{
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.section2-info p{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    
+}
+
+.section2-info ul{
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;;
+}
+
+.svg_info{
+    fill: #21c35d;
+    width: 1rem;
+    height: 1rem;
+    padding-right: 0.1rem;
+}
+
+.section2-info ul li{
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section2-info .img_avatar{
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 15%;
+    height: 15%;
+}
+
+.section2-info blockquote{
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.section2-desc .name_desc{
+    color: white;
+    font-weight: 500;
+}
+
+.section2-desc .role_desc{
+    color:var(--color-text-special);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.section2-desc .role_desc:hover{
+    color:white;
+}
+
+.section_3-cta{
+    margin-bottom: 0.5rem;
+}
+
+.section_3{
+    margin-top: 4rem;
+}
+
+.section_3-desc{
+    background-color:#25282c;
+    max-width: 55%;
+    height: auto;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+}
+
+.section_3-desc h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: -0.01em;
+}
+.section_3-desc p{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.section_3-img img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.section_4-img img{
+    width: 80%;
+    max-width: 100%;
+}
+
+.section4-info{
+    width: 50%;
+    max-width: 100%;
+}
+
+.section4-info .text-p{
+    color: var(--color-text-special);
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.point-blue{
+    color: var(--color-text-special);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.point-green{
+    color: #14b8a6;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.point-red{
+    color: #ec4899;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section4-info h4{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: 0.1;
+}
+.section4-info p{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.section5_container{
+    max-width: 100%;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.section5_items{
+    width: 33.3%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.section5_img img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.section5_btn{
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.section5_items .section5_info h3{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.375;
+    letter-spacing: -0.01em;
+}
+
+.section5_items .section5_info p{
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.section5_desc{
+    margin-top: 1rem;
+}
+
+.section5_desc .name_desc{
+    color:white;
+    font-weight: 500;
+}
+.section5_img-avatar img{
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 12%;
+    height: 12%;
+}
+
+.section6{
+    width: 100%;
+    height: 250px;
+    background-color: var(--color-text-special);
+    margin-bottom:1rem;
+}
+
+.section6 .section6_info{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 50%;
+    max-width: 100%;
+}
+
+.section6 .section6_info h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.section6 .section6_info p{
+    color: white;
+    font-size: 1.125rem;
+}
+
+.section6 .section6_form{
+    width: 50%;
+    max-width: 100%;
+}
+
+#email{
+    height: 50%;
+    color: var(--color-text);
+    background-color: #4b4acf;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 1px;
+    border-radius: 0.125rem;
+}
+
+#submit{
+    height: 50%;
+    color: var(--color-text-special);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 1px;
+    border-radius: 0.125rem;
+    cursor: pointer;
+}
