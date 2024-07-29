@@ -114,7 +114,6 @@ header .header__images {
 
 }
 .sec2 .sec2__team  {
-    column-gap: ;
     margin-top: 100px;
     max-width: var(--global-max-width);
 
